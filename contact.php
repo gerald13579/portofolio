@@ -14,19 +14,29 @@
       <div class="contact-head">
         <h2>CONTACT ME</h2>
       </div>
-
       <div class="contact-container">
-        <div class="contact-content">
-          <p>
-            Email: <a href="mailto: geraldtakalamingan@gmial.com">geraldtakalamingan@gmial.com</a>
-          </p>
+          <div class="contact-form">
+            <h3>send me a message</h3>
+            <form action="proses.php" method="POST">
+              <div class="form-group">
+                <input type="text" name="nama" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="send message" required></textarea>
+              </div>
+              <button type="submit">submit</button>
+            </form>
+          </div>
 
-          <br>
-
+          <div class="contact-social">
           <h3>Social Media:</h3>
-          <p>IG: <a href="https://www.instagram.com/gtklmngn/">@gtklmngn</a></p>
-          <p>FB: <a href="https://www.facebook.com/gerald.takalamingan">@Gerald Takalamingan</a></p>
-        </div>
+            <p>Email: <a href="mailto: geraldtakalamingan@gmial.com">geraldtakalamingan@gmial.com</a></p>
+            <p>IG: <a href="https://www.instagram.com/gtklmngn/">@gtklmngn</a></p>
+            <p>FB: <a href="https://www.facebook.com/gerald.takalamingan">@Gerald Takalamingan</a></p>
+          </div>
       </div>
     </div>
     <script src="script.js"></script>
